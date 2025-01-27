@@ -1,0 +1,13 @@
+{
+      "name": "formadapt",
+      "version": "0.8.0",
+      "description": "FormAdapt project",
+      "scripts": {
+        "client": "npm run dev --prefix client",
+        "server": "npm run dev --prefix server",
+        "dev": "concurrently \"npm run client\" \"npm run server\""
+      },
+      "devDependencies": {
+        "concurrently": "^8.2.2"
+      }
+    }
